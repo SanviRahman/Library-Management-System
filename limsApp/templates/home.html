@@ -1,0 +1,61 @@
+{% extends "index.html" %}
+{% block main_content %}
+{% load static %}
+
+<main role="main">
+<div class="jumbotron">
+    <div class="container">
+        <img src="{% static 'Boro.png' %}" class="rounded float-start" alt="Boro"  height="150" style="margin-right: 50px;">
+        <h1 class="display-4" style="margin-left: 400px;">Hello, Readers!</h1>
+        <p style="margin-left: 400px; text-align: justify;"> Welcome to DIU Library.A library is a collection of books and other informational resources organized for reading, research, and learning. Libraries play a significant role in promoting literacy, preserving knowledge, and fostering community engagement. They can be physical spaces, digital platforms, or both, offering access to a wide range of materials</p>
+
+       <p><button role="button" href="#" class="btn btn-primary btn-lg">Browse our collection</button></p>
+    </div>
+</div>
+
+<div class="container" style="background-color: rgb(245, 242, 239);">
+    <div class="row">
+      <div class="col">
+        <h2>Why is reading important?</h2>
+        <p style="text-align: justify;">Reading is vital for personal and intellectual growth. It enhances knowledge, improves mental stimulation, and builds vocabulary and language skills. By boosting imagination, creativity, and critical thinking, reading helps develop problem-solving abilities. It reduces stress, strengthens focus, and fosters empathy by exposing readers to diverse perspectives. Additionally, reading supports academic and professional success while encouraging lifelong learning. Overall, it is a powerful habit that enriches the mind and nurtures personal development.</p>
+      </div>
+      <div class="col">
+        <h1>key Benefits of Reading</h1>
+        <p>
+            <ul>
+                <li style="text-align: justify;">
+                    Enhances Knowledge: Expands understanding of various topics and cultures.
+                </li>
+                <li style="text-align: justify;">
+                    Keeps the brain active and sharp, reducing cognitive decline.
+                </li>
+                <li style="text-align: justify;">
+                    Increases word power and comprehension.
+                </li>
+                <li style="text-align: justify;">
+                    Sparks new ideas and visual thinking.
+                </li>
+                <li style="text-align: justify;">
+                    Encourages analysis, reflection, and better decision-making.
+                </li> 
+            </ul>
+        </p>
+      </div>
+      <div class="col">
+        <h1>Thought for the day!</h1>
+        <p style="text-align: justify;">
+            A "Thought for the Day" is a short, insightful message designed to inspire or motivate individuals. It encourages reflection on personal growth, positivity, and productivity. These thoughts can be philosophical, motivational, or spiritual, offering a daily reminder to focus on what matters most. Whether it’s about resilience, gratitude, kindness, or achieving goals, a thoughtful message helps set the tone for a productive and meaningful day.
+        </p>
+      </div>
+    </div>
+</div>
+<div>
+    <br>
+    <hr>
+</div>
+</main>
+<footer class="container">
+   
+    <p>&copy; DIU Library 2024</p>
+</footer>
+{% endblock %}
